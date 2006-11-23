@@ -1,0 +1,13 @@
+Source: nxsetup-kanotix
+Section: net
+Priority: optional
+Maintainer: Stefan Lippers-Hollmann <s.l-h@gmx.de>
+Build-Depends-Indep: cdbs (>= 0.4.23-1.1), build-essential, debhelper (>= 4.1.0)
+Standards-Version: 3.6.2
+
+Package: nxsetup-kanotix
+Architecture: all
+Depends: dialog, xdialog, freenx (>=0.4.4), kanotix-su
+Description: Simple frontend nxserver setup
+ nxsetup-kanotix provides userfriendly dialog and creates a unpriviledged 
+ nxuser user for use with NX and kanotix.

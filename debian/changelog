@@ -1,0 +1,51 @@
+nxsetup-kanotix (0.3.1) unstable; urgency=low
+
+  * bump standards version.
+  * minor packaging fixes.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 23 Aug 2005 17:44:20 +0200
+
+nxsetup-kanotix (0.3) unstable; urgency=low
+
+  * improve sshd detection. 
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat,  4 Jun 2005 22:28:34 +0200
+
+nxsetup-kanotix (0.2.2) unstable; urgency=low
+
+  * minor cosmetical fixes. 
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat,  4 Jun 2005 22:10:14 +0200
+
+nxsetup-kanotix (0.2.1) unstable; urgency=low
+
+  * set password for 'knoppix" in CD mode.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat,  4 Jun 2005 21:42:35 +0200
+
+nxsetup-kanotix (0.2) unstable; urgency=low
+
+  * exchange source to become installation friendlier.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat,  4 Jun 2005 20:56:14 +0200
+
+nxsetup-kanotix (0.1.2) unstable; urgency=low
+
+  * switch to kanotix-su.
+  * improve packaging.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 31 Mar 2005 15:47:27 +0200
+
+nxsetup-kanotix (0.1-1) unstable; urgency=low
+
+  * Forked for Kanotix XDG compatibilty.
+  * changed packaging.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 15 Dec 2004 18:23:47 +0100
+
+nxsetup-knoppix (0.1-1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Fabian Franz <freenx@fabian-franz.de>  Mon,  1 Nov 2004 12:42:39 +0100
+
