@@ -1,8 +1,15 @@
 #!/bin/sh
 
-[ "$UID" -ne 0 ] && exec kanotix-su $0 "$@"
+[ "$UID" -ne 0 ] && exec su-me $0 "$@"
 
-if [ -e /etc/sysconfig/live -o -d /KNOPPIX ]; then
+# override tool behaviour through distro-defaults
+FLL_DISTRO_MODE="installed"
+FLL_LIVE_USER="sidux"
+FLL_MOUNTPOINT="/KNOPPIX"
+
+[ -r /etc/default/distro ] && . /etc/default/distro
+
+if [ "$FLL_DISTRO_MODE" = "live" ]; then
 	# we are in live mode, so act appropriately
 
 	if grep -q unionfs /proc/mounts; then
@@ -10,12 +17,12 @@ if [ -e /etc/sysconfig/live -o -d /KNOPPIX ]; then
 	else
 		echo Activating Unionfs now.
 		mkdir -p /tmp/union
-		mount -t unionfs -o dirs=/tmp/union/:/KNOPPIX /none /KNOPPIX/ 2>&1 >/dev/null
+		mount -t unionfs -o dirs=/tmp/union/:${FLL_MOUNTPOINT} /none ${FLL_MOUNTPOINT}/ 2>&1 >/dev/null
 	fi
 	
-	while grep -q '^knoppix:\*:' /etc/shadow; do
-		echo "Set password for user 'knoppix'"
-		passwd knoppix
+	while grep -q '^$FLL_LIVE_USER:\*:' /etc/shadow; do
+		echo "Set password for user \"$FLL_LIVE_USER\""
+		passwd ${FLL_LIVE_USER}
 	done
 fi
 

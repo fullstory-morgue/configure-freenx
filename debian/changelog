@@ -1,3 +1,10 @@
+configure-freenx (0.4.0) unstable; urgency=low
+
+  * bump compat level.
+  * initial sidux release.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun,  3 Dec 2006 01:06:05 +0100
+
 nxsetup-kanotix (0.3.1) unstable; urgency=low
 
   * bump standards version.

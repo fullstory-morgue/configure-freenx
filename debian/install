@@ -1,2 +1,2 @@
-nxsetup-kanotix usr/sbin
-*.desktop usr/share/applnk/Kanotix/Services
+configure-freenx		usr/sbin/
+configure-freenx.desktop	usr/share/applnk/sidux/Services/
