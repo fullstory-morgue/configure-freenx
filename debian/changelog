@@ -1,3 +1,9 @@
+configure-freenx (0.4.1) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun,  3 Dec 2006 01:09:03 +0100
+
 configure-freenx (0.4.0) unstable; urgency=low
 
   * bump compat level.
