@@ -1,8 +1,8 @@
-configure-freenx (0.4.3) UNRELEASED; urgency=low
+configure-freenx (0.4.3) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * remove custom fix-unionfs implementation.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue,  2 Jan 2007 15:50:25 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu,  1 Mar 2007 12:35:56 +0100
 
 configure-freenx (0.4.2) unstable; urgency=low
 
