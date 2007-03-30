@@ -1,2 +1,2 @@
-configure-freenx		usr/sbin/
-*.desktop			usr/share/applnk/sidux/Config/
+configure-freenx	usr/sbin/
+*.desktop		usr/share/applications/sidux/
