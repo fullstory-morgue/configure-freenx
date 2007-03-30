@@ -5,3 +5,4 @@ Name=Start NX server
 Icon=/usr/NX/share/icons/nx.png
 Type=Application
 Terminal=1
+Categories=sidux;Services
