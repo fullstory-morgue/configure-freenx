@@ -12,13 +12,6 @@ FLL_MOUNTPOINT="/SIDUX"
 [ -r /etc/default/distro ] && . /etc/default/distro
 
 if [ "$FLL_DISTRO_MODE" = "live" ]; then
-	# we are in live mode, so act appropriately
-	if grep -q unionfs /proc/mounts && [ -x /usr/sbin/fix-unionfs ]; then
-		echo Unionfs found.
-	else
-		/usr/sbin/fix-unionfs
-	fi
-	
 	while grep -q '^$FLL_LIVE_USER:\*:' /etc/shadow; do
 		echo "Set password for user \"$FLL_LIVE_USER\""
 		passwd ${FLL_LIVE_USER}
