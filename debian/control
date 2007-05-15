@@ -8,7 +8,6 @@ Standards-Version: 3.7.2
 Package: configure-freenx
 Architecture: all
 Depends: freenx (>=0.4.4), su-me, sidux-xdg
-Recommends: sidux-scripts
 Description: Simple frontend for FreeNX
  configure-freenx provides a userfriendly dialog and creates a unpriviledged 
  nxuser user for use with NX.

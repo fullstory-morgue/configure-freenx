@@ -1,8 +1,9 @@
 configure-freenx (0.4.6) unstable; urgency=low
 
   * remove obsolete unionfs handling.
+  * no longer recommend sidux-scripts.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 15 May 2007 13:14:12 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 15 May 2007 13:43:36 +0200
 
 configure-freenx (0.4.5) unstable; urgency=low
 
