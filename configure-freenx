@@ -2,12 +2,12 @@
 # Copyright 2005-2007 Stefan Lippers-Hollmann <s.l-h@gmx.de>
 # GPL2
 
-[ "$UID" -ne 0 ] && exec su-me $0 "$@"
+[ "$(id -u)" -ne 0 ] && exec su-me $0 "$@"
 
 # override tool behaviour through distro-defaults
 FLL_DISTRO_MODE="installed"
 FLL_LIVE_USER="sidux"
-FLL_MOUNTPOINT="/SIDUX"
+FLL_MOUNTPOINT="/fll/SIDUX"
 
 [ -r /etc/default/distro ] && . /etc/default/distro
 

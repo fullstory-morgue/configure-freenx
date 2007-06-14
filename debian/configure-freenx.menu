@@ -1,0 +1,5 @@
+?package(configure-freenx):needs="text" \
+	section="Apps/System" \
+	hints="sidux,Config" \
+	title="Start NX server" \
+	command="/usr/sbin/configure-freenx"
