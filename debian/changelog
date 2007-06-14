@@ -1,4 +1,4 @@
-configure-freenx (0.4.7) UNRELEASED; urgency=low
+configure-freenx (0.4.7) unstable; urgency=low
 
   * Add debian menu file.
   * Update FLL_MOUNTPOINT.
