@@ -1,8 +1,9 @@
 configure-freenx (0.4.8) UNRELEASED; urgency=low
 
   * NOT RELEASED YET
+  * add VCS control headers.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 14 Jun 2007 17:09:13 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 11 Sep 2007 20:07:51 +0200
 
 configure-freenx (0.4.7) unstable; urgency=low
 
